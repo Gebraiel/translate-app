@@ -4,7 +4,6 @@ let languagesMenu = document.querySelectorAll('select');
 let switchBtn = document.querySelector('.btn.switch');
 let translateBtn = document.querySelector('.btn.translate');
 let text = document.querySelector('textarea.input').value;
-let
 const countries = {
     "am-ET": "Amharic",
     "ar-SA": "Arabic",
@@ -120,7 +119,4 @@ switchBtn.addEventListener('click',()=>{
     languagesMenu[0].value = lang2;
     languagesMenu[1].value = lang1; 
 
-})
-translateBtn.addEventListener('click',()=>{
-    lang1 && lang2 && text.trim() != '' ? fetch() : ;
 })
